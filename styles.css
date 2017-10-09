@@ -1,0 +1,122 @@
+@font-face {
+	font-family: sanfranthin;
+	src: url(San-Fran-Thin.ttf);
+}
+@font-face {
+	font-family: sanfranregular;
+	src: url(San-Fran-Regular.ttf);
+}
+body {
+	background-color: black;
+	color: white;
+}
+#cover {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: .5;
+	top: 0;
+	left: 0;
+}
+#box {
+	width: 60%;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 15%;
+}
+#edit {
+	background-color: white;
+	border-radius: 20px;
+	color: black;
+	font-family: sanfranthin;
+	padding: 20px;
+}
+#edit p {
+	margin-left: 20%;
+	float: left;
+}
+.textbox {
+	float: left;
+	margin-top: 15px;
+	margin-left: 5%;
+	width: 25%;
+}
+button {
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+	font-family: sanfranthin;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5%;
+	font-size: 1em;
+	cursor: pointer;
+}
+button:hover {
+	background-color: black;
+	color: white;
+	transition: background-color 0.5s ease;
+}
+.inner {
+	margin-left: auto;
+	margin-right: auto;
+}
+#header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	margin-top: 10px;
+}
+.label {
+	text-align: center;
+	font-family: sanfranthin;
+	font-size: 1.5em;
+	color: white;
+}
+.headerbutton {
+	float: left;
+	width: 22%;
+	background-color: black;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: sanfranregular;
+	border: none;
+	margin-left: 1%;
+}
+select {
+	border: 1px solid #111;
+	background: transparent;
+	width: 200px;
+	font-size: 20px;
+	padding: 5px 35px 5px 5px;
+	border: 1px solid #ccc;
+	height: 40px;
+	-webkit-appearance: none;
+	-moz-apperance: none;
+	appearance: none;
+	color: white;
+	font-family: sanfranthin;
+}
+#usage {
+	font-family: sanfranthin;
+	text-align: center;
+	margin-top: 50px;
+}
+#usage p {
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+#usagedata {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-family: sanfranthin;
+	font-size: 1.5em;
+	width: 20%;
+}
